@@ -86,6 +86,6 @@ app.use("/", (req, res, next) => {
 });
 
 app.listen(process.env.PORT);
-console.log("Server listening on port 1337");
+console.log(`Server listening on port ${process.env.PORT}`);
 
 export default app;
